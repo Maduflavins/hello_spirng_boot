@@ -19,6 +19,7 @@ public class HellorIT {
     @Autowired
     private TestRestTemplate template;
 
+    //this is to check for a change
     @BeforeEach
     public void setUp() throws Exception{
         this.base=new URL("http://localhost:" + port + "/");
